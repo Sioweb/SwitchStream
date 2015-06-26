@@ -1,0 +1,143 @@
+<?xml version="1.0" ?><xliff version="1.1">
+  <file datatype="php" original="system/modules/core/languages/en/tl_stream.php" source-language="en">
+    <body>
+      <trans-unit id="tl_stream.title.0">
+        <source>Stream-Name / Titel</source>
+        <target>Stream-Name / Titel</target>
+      </trans-unit>
+      <trans-unit id="tl_stream.title.1">
+        <source>Gib einen Stream-Namen oder Titel an, z. B. Rock oder Blues.</source>
+        <target>Gib einen Stream-Namen oder Titel an, z. B. Rock oder Blues.</target>
+      </trans-unit>
+      <trans-unit id="tl_stream.streamurl.0">
+        <source>Stream-URL</source>
+        <target>Stream-URL</target>
+      </trans-unit>
+      <trans-unit id="tl_stream.streamurl.1">
+        <source>Bitte hier die URL zum Stream eingeben, Shoutcast-URL benötigen dringend ein Semikolon (;) am Ende!</source>
+        <target>Bitte hier die URL zum Stream eingeben, Shoutcast-URL benötigen dringend ein Semikolon (;) am Ende!</target>
+      </trans-unit>
+      <trans-unit id="tl_stream.fallback.0">
+        <source>Hauptstream</source>
+        <target>Hauptstream</target>
+      </trans-unit>
+      <trans-unit id="tl_stream.fallback.1">
+        <source>Dieser Stream wird als erstes ausgebeben, fall kein Stream gewählt wurde.</source>
+        <target>Dieser Stream wird als erstes ausgebeben, fall kein Stream gewählt wurde.</target>
+      </trans-unit>
+      <trans-unit id="tl_stream.permanent.0">
+        <source>Diesen Stream immer ausgeben</source>
+        <target>Diesen Stream immer ausgeben</target>
+      </trans-unit>
+      <trans-unit id="tl_stream.permanent.1">
+        <source>Dieser Stream wird immer als verfügbar angezeigt.</source>
+        <target>Dieser Stream wird immer als verfügbar angezeigt.</target>
+      </trans-unit>
+      <trans-unit id="tl_stream.timelimit.0">
+        <source>Nur zu bestimmten Zeiten ausgeben</source>
+        <target>Nur zu bestimmten Zeiten ausgeben</target>
+      </trans-unit>
+      <trans-unit id="tl_stream.timelimit.1">
+        <source>Diese Option aktiviert den Stream in den angegebenen Zeiten.</source>
+        <target>Diese Option aktiviert den Stream in den angegebenen Zeiten.</target>
+      </trans-unit>
+      <trans-unit id="tl_stream.fromTime.0">
+        <source>Verfügbar von (Uhrzeit)</source>
+        <target>Verfügbar von (Uhrzeit)</target>
+      </trans-unit>
+      <trans-unit id="tl_stream.fromTime.1">
+        <source>Der Stream wird ab dieser Uhrzeit verfügbar sein.</source>
+        <target>Der Stream wird ab dieser Uhrzeit verfügbar sein.</target>
+      </trans-unit>
+      <trans-unit id="tl_stream.toTime.0">
+        <source>Verfügbar bis (Uhrzeit)</source>
+        <target>Verfügbar bis (Uhrzeit)</target>
+      </trans-unit>
+      <trans-unit id="tl_stream.toTime.1">
+        <source>Der Stream wird bis zu dieser Uhrzeit verfügbar sein.</source>
+        <target>Der Stream wird bis zu dieser Uhrzeit verfügbar sein.</target>
+      </trans-unit>
+
+      <trans-unit id="tl_stream.title_legend">
+        <source>Titel</source>
+        <target>Titel</target>
+      </trans-unit>
+      <trans-unit id="tl_stream.time_legend">
+        <source>Zeit Einstellungen</source>
+        <target>Zeit Einstellungen</target>
+      </trans-unit>
+
+      <trans-unit id="tl_stream.new.0">
+        <source>Neuer Eintrag</source>
+        <target>Neuer Eintrag</target>
+      </trans-unit>
+      <trans-unit id="tl_stream.new.1">
+        <source>Einen neuen Eintrag erstellen.</source>
+        <target>Einen neuen Eintrag erstellen.</target>
+      </trans-unit>
+
+      <trans-unit id="tl_stream.show.0">
+        <source>Eintragsdetails</source>
+        <target>Eintragsdetails</target>
+      </trans-unit>
+      <trans-unit id="tl_stream.show.1">
+        <source>Die Details des Eintrags ID %s anzeigen.</source>
+        <target>Die Details des Eintrags ID %s anzeigen.</target>
+      </trans-unit>
+
+      <trans-unit id="tl_stream.edit.0">
+        <source>Eintrag bearbeiten</source>
+        <target>Eintrag bearbeiten</target>
+      </trans-unit>
+      <trans-unit id="tl_stream.edit.1">
+        <source>Eintrag ID %s bearbeiten.</source>
+        <target>Eintrag ID %s bearbeiten.</target>
+      </trans-unit>
+
+      <trans-unit id="tl_stream.copy.0">
+        <source>Eintrag duplizieren</source>
+        <target>Eintrag duplizieren</target>
+      </trans-unit>
+      <trans-unit id="tl_stream.copy.1">
+        <source>Eintrag ID %s duplizieren.</source>
+        <target>Eintrag ID %s duplizieren.</target>
+      </trans-unit>
+
+      <trans-unit id="tl_stream.cut.0">
+        <source>Eintrag verschieben</source>
+        <target>Eintrag verschieben</target>
+      </trans-unit>
+      <trans-unit id="tl_stream.cut.1">
+        <source>Eintrag ID %s verschieben.</source>
+        <target>Eintrag ID %s verschieben.</target>
+      </trans-unit>
+
+      <trans-unit id="tl_stream.delete.0">
+        <source>Eintrag löschen</source>
+        <target>Eintrag löschen</target>
+      </trans-unit>
+      <trans-unit id="tl_stream.delete.1">
+        <source>Eintrag ID %s löschen.</source>
+        <target>Eintrag ID %s löschen.</target>
+      </trans-unit>
+
+      <trans-unit id="tl_stream.toggle.0">
+        <source>Eintrag veröffentlichen/unveröffentlichen</source>
+        <target>Eintrag veröffentlichen/unveröffentlichen</target>
+      </trans-unit>
+      <trans-unit id="tl_stream.toggle.1">
+        <source>Eintrag ID %s veröffentlichen/unveröffentlichen.</source>
+        <target>Eintrag ID %s veröffentlichen/unveröffentlichen.</target>
+      </trans-unit>
+
+      <trans-unit id="tl_stream.feature.0">
+        <source>Eintrag hervorheben/zurücksetzen</source>
+        <target>Eintrag hervorheben/zurücksetzen</target>
+      </trans-unit>
+      <trans-unit id="tl_stream.feature.1">
+        <source>Beitrag ID %s hervorheben/zurücksetzen.</source>
+        <target>Beitrag ID %s hervorheben/zurücksetzen.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

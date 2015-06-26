@@ -1,0 +1,18 @@
+<?xml version="1.0" ?><xliff version="1.1">
+  <file datatype="php" original="system/modules/core/languages/en/modules.php" source-language="en">
+    <body>
+      <trans-unit id="CTE.sioweb">
+        <source>Sioweb</source>
+        <target>Sioweb</target>
+      </trans-unit>
+      <trans-unit id="MOD.stream.0">
+        <source>Stream URL</source>
+        <target>Stream URL</target>
+      </trans-unit>
+      <trans-unit id="MOD.glossar.1">
+        <source>Streams eintragen die auf der Webseite verfügbar sein sollen.</source>
+        <target>Streams eintragen die auf der Webseite verfügbar sein sollen.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,10 @@
+<?xml version="1.0" ?><xliff version="1.1">
+  <file datatype="php" original="system/default/core/languages/en/default.php" source-language="en">
+    <body>
+      <trans-unit id="CTE.stream_player">
+        <source>Stream-Player</source>
+        <target>Stream-Player</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

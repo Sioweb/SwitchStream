@@ -1,0 +1,46 @@
+<?xml version="1.0" ?><xliff version="1.1">
+  <file datatype="php" original="system/modules/core/languages/en/tl_content.php" source-language="en">
+    <body>
+      <trans-unit id="tl_content.autoplay_stream.0">
+        <source>Stream automatisch starten</source>
+        <target>Stream automatisch starten</target>
+      </trans-unit>
+      <trans-unit id="tl_content.autoplay_stream.1">
+        <source>Diese Option startet den Stream automatisch sobald ein Besucher die Seite öffnet.</source>
+        <target>Diese Option startet den Stream automatisch sobald ein Besucher die Seite öffnet.</target>
+      </trans-unit>
+      <trans-unit id="tl_content.random_stream.0">
+        <source>Zufalls-Stream starten</source>
+        <target>Zufalls-Stream starten</target>
+      </trans-unit>
+      <trans-unit id="tl_content.random_stream.1">
+        <source>Diese Option lädt zufällig einen der definierten Streams in den Player.</source>
+        <target>Diese Option lädt zufällig einen der definierten Streams in den Player.</target>
+      </trans-unit>
+      <trans-unit id="tl_content.mainstream.0">
+        <source>Hauptstream automatisch aktivieren</source>
+        <target>Hauptstream automatisch aktivieren</target>
+      </trans-unit>
+      <trans-unit id="tl_content.mainstream.1">
+        <source>Diese Option deaktiviert alle Streams in der angegebenen Zeit außer dem Hauptstream.</source>
+        <target>Diese Option deaktiviert alle Streams in der angegebenen Zeit außer dem Hauptstream.</target>
+      </trans-unit>
+      <trans-unit id="tl_content.fromTime.0">
+        <source>Verfügbar von (Uhrzeit)</source>
+        <target>Verfügbar von (Uhrzeit)</target>
+      </trans-unit>
+      <trans-unit id="tl_content.fromTime.1">
+        <source>Der Stream wird ab dieser Uhrzeit verfügbar sein.</source>
+        <target>Der Stream wird ab dieser Uhrzeit verfügbar sein.</target>
+      </trans-unit>
+      <trans-unit id="tl_content.toTime.0">
+        <source>Verfügbar bis (Uhrzeit)</source>
+        <target>Verfügbar bis (Uhrzeit)</target>
+      </trans-unit>
+      <trans-unit id="tl_content.toTime.1">
+        <source>Der Stream wird bis zu dieser Uhrzeit verfügbar sein.</source>
+        <target>Der Stream wird bis zu dieser Uhrzeit verfügbar sein.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
