@@ -1,0 +1,16 @@
+<?php $this->extend('block_searchable'); ?>
+
+<?php $this->block('content'); ?>
+<?php if(count($this->streams) > 1) {?>
+<div>
+  <select name="stream_switch" size="1" id="stream_switch_<?php echo $this->id;?>">
+    <option value="">Stream wählen</option>
+    <?php foreach($this->streams as $key => $stream) {?>
+    <option<?php echo ($key == $this->index?' selected="selected"':'');?> value="<?php echo $stream['streamurl'];?>"><?php echo $stream['title'];?></option>
+    <?php }?>
+  </select>
+</div>
+<?php }?>
+<audio class="audio <?php echo ($this->from && $this->to && count($this->streams) > 1?' mastertime':'');?> <?php echo ($this->autoplay?' autoplay':'');?>" data-from="<?php echo $this->from;?>" data-to="<?php echo $this->to;?>" id="player_stream_switch_<?php echo $this->id;?>" controls="controls"><source src="<?php echo $this->streams[$this->index]['streamurl'];?>"></audio>
+
+<?php $this->endblock(); ?>

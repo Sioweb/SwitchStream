@@ -26,10 +26,12 @@ ClassLoader::addClasses(array(
 
 ));
 
-
+$version = '';
+if(VERSION <= '3.2')
+  $version = '/3.2';
 /**
  * Register the templates
  */
 TemplateLoader::addFiles(array(
-  'ce_streams'    => 'system/modules/StreamSwitch/templates',
+  'ce_streams'    => 'system/modules/StreamSwitch/templates'.$version,
 ));
