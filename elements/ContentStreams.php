@@ -44,10 +44,14 @@ class ContentStreams extends \ContentElement {
     $Streams = $Stream->fetchAll();
     $MasterTime = 0;
 
+    $this->fromTime = strtotime(date('H:i',$this->fromTime));
+    $this->toTime = strtotime(date('H:i',$this->toTime));
+
     $this->Template->autoplay = ($this->autoplay_stream);
     $StreamIndex = 0;
     if($this->fromTime > $this->toTime)
       $this->toTime += (60*60*24);
+
 
     if($this->mainstream && $time >= $this->fromTime && $time <= $this->toTime) {
       foreach($Streams as $key => $stream) {
@@ -62,6 +66,8 @@ class ContentStreams extends \ContentElement {
       // && (!$stream['timelimit'] || ($stream['timelimit'] && $time > $stream['fromTime'] && $time < $stream['toTime']))
 
       foreach($Streams as $stream) {
+        $stream['fromTime'] = strtotime(date('H:i',$stream['fromTime']));
+        $stream['toTime'] = strtotime(date('H:i',$stream['toTime']));
         if($stream['fromTime'] > $stream['toTime'])
           $stream['toTime'] += (60*60*24);
         if(!$stream['fallback'] && (!$stream['timelimit'] || ($stream['timelimit'] && $time >= $stream['fromTime'] && $time <= $stream['toTime'])))
